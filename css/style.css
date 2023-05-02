@@ -3,3 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgba(8,59,76,255);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+
+.square{
+    background-color: rgba(19,137,178,255);
+    width: calc((100% / 10) - 10px);
+    height: 100px;
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
